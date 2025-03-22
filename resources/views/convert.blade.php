@@ -46,17 +46,15 @@
 </p>
 <br>
 
-<div class="wrapper">
-    <pre>
-        @if(!empty($language))
-            <code class="hljs">
-                {!! trim($convertText) !!}
-            </code>
-        @else
+<pre>
+    @if(!empty($language))
+        <code class="hljs">
             {!! trim($convertText) !!}
-        @endif
-    </pre>
-</div>
+        </code>
+    @else
+        {!! trim($convertText) !!}
+    @endif
+</pre>
 
 <br>
 <p>-------------------</p>
