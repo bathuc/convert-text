@@ -39,7 +39,7 @@
 <p class="mt-3">-------------------</p>
 <p class="fw-bold text-success">
     @if (!empty($language))
-        Code is write in language: {{ $language }}
+        Code has been colored
     @else 
         Raw String
     @endif
